@@ -1,0 +1,9 @@
+.app {
+
+}
+
+.app__text {
+  font-family: var(--font-baseFontFamily);
+  letter-spacing: var(--letter-spacing-default);
+  color: var(--color-black);
+}

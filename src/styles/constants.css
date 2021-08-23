@@ -1,0 +1,26 @@
+:root {
+  /*Цвета палитры*/
+  --color-white: #E5E5E5;
+  --color-black: #242424;
+  --color-green: #B7C09D;
+
+  /*Типографика*/
+  --font-baseFontFamily: 'Helvetica Neue', 'Arial', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-light: 300;
+  --letter-spacing-default: -0.01em;
+  --font-size-heading: 56px;
+  --line-height-heading: 56px;
+  --font-size-searchForm: 18px;
+  --line-height-searchForm: 23px;
+  --font-size-searchButton: 16px;
+  --line-height-searchButton: 14px;
+  --font-size-cardText: 20px;
+  --line-height-cardText: 24px;
+  --font-size-cardCaption: 16px;
+  --line-height-cardCaption: 22px;
+  --font-size-indexLetter: 40px;
+  --line-height-indexLetter: 40px;
+  --font-size-indexAuthor: 20px;
+  --line-height-indexAurhor: 28px;
+}
