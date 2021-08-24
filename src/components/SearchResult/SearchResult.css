@@ -1,0 +1,49 @@
+.search-result {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-column-gap: var(--cards-authors-gap);
+}
+
+.search-result_hidden {
+ visibility: hidden;
+}
+
+.search-result__cards {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, var(--width-playCard));
+  grid-template-rows: var(--height-playCard);
+  grid-gap: var(--cards-grid-gap);
+  list-style-type: none;
+}
+
+.search-result__index {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.search-result__letter {
+  font-size: var(--font-size-indexLetter);
+  line-height: var(--line-height-indexLetter);
+  margin: var(--margin-search-resultLetter);
+  font-weight: var(--font-weight-normal);
+}
+
+.search-result__authors-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.search-result__authors {
+  font-size: var(--font-size-indexAuthor);
+  line-height: var(--line-height-indexAurhor);
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.search-result__authors:last-child {
+  margin-bottom: 61px;
+}

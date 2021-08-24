@@ -11,8 +11,8 @@
   --letter-spacing-default: -0.01em;
   --font-size-heading: 56px;
   --line-height-heading: 56px;
-  --font-size-searchForm: 18px;
-  --line-height-searchForm: 23px;
+  --font-size-searchFormInput: 18px;
+  --line-height-searchFormInput: 23px;
   --font-size-searchButton: 16px;
   --line-height-searchButton: 14px;
   --font-size-cardText: 20px;
@@ -23,4 +23,31 @@
   --line-height-indexLetter: 40px;
   --font-size-indexAuthor: 20px;
   --line-height-indexAurhor: 28px;
+
+  /*Параметры компонента Library*/
+  --width-library: 1440px;
+  --padding-library: 189px 248px 187px 120px;
+  /*Параметры компонента Search-form*/
+  --margin-search-form: 0 0 66px 0;
+  --width-search-formTitle: 740px;
+  --margin-search-formTitle: 0 0 30px 0;
+  --min-height-search-formTitle: 108px;
+  --width-search-form: 507px;
+  --padding-search-formInput: 0 127px 7px 7px;
+  --padding-search-formButton: 10px 28px;
+  /*Параметры компонента Search-result*/
+  --margin-search-result: 0 0 15px 0;
+  --cards-grid-gap: 29px;
+  --cards-authors-gap: 94px;
+  --margin-search-resultLetter: 0 0 12px 0;
+  --margin-search-resultAuthors: 0 0 12px 0;
+  --margin-search-resultAuthorsBlock: 0 0 61px 0;
+
+  /*Параметры компонента PlayCard*/
+  --width-playCard: 240px;
+  --height-playCard: 412px;
+  --margin-playCardTitle: 0 0 16px 0;
+  --height-playCardTitle: 300px;;
+  --padding-playCardTitle: 24px;
+  --margin-author-container: 0 0 4px 0;
 }

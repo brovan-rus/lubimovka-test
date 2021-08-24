@@ -1,0 +1,35 @@
+.play-card {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.play-card__title {
+  box-sizing: border-box;
+  margin: var(--margin-playCardTitle);
+  height: var(--height-playCardTitle);
+  background-color: var(--color-green);
+  font-size: var(--font-size-cardText);
+  line-height: var(--line-height-cardText);
+  font-weight: var(--font-weight-normal);
+  padding: var(--padding-playCardTitle);
+}
+
+.play-card__author {
+  font-size: var(--font-size-cardText);
+  line-height: var(--line-height-cardText);
+  margin: 0;
+  padding: 0;
+}
+
+.play-card__author-container {
+  margin: var(--margin-author-container);
+}
+
+.play-card__caption {
+  font-size: var(--font-size-cardCaption);
+  line-height: var(--line-height-cardCaption);
+  font-weight: var(--font-weight-light);
+  margin: 0;
+  padding: 0;
+}
